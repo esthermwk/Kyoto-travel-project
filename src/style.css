@@ -59,10 +59,9 @@ footer {
 }
 
 .grid {
-  display: grid;
   grid-template-columns: 1fr 2fr 2fr;
-  margin-right: 20px;
-  margin-left: 20px;
+  display: grid;
+  grid-gap: 80px;
 }
 
 footer h3 {
@@ -125,5 +124,11 @@ footer li {
   p,
   li {
     font-size: 15px !important;
+  }
+
+  .grid {
+    grid-template-columns: 1fr 2fr 2fr;
+    display: grid;
+    grid-gap: 40px;
   }
 }
