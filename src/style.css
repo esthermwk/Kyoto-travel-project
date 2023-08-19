@@ -61,7 +61,7 @@ footer {
 .grid {
   grid-template-columns: 1fr 2fr 2fr;
   display: grid;
-  grid-gap: 80px;
+  grid-gap: 64px;
 }
 
 footer h3 {
