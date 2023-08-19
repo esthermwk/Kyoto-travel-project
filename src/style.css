@@ -94,6 +94,7 @@ footer li {
 .link {
   color: #f1dac4;
   text-decoration: underline;
+  opacity: 80%;
 }
 
 .link:hover {
