@@ -28,21 +28,22 @@ header h2 {
   font-weight: lighter;
   font-size: 35px;
   line-height: 1.5;
+  margin: 60px;
 }
 
 .learn-more {
   color: #161b33;
-  background-color: #f1dac4;
+  background: #f1dac4;
   font-style: none;
   font-family: var(--title-font);
-  margin: 0 auto;
   padding: 15px 20px;
   border-radius: 30px;
 }
 
 .learn-more:hover {
-  background-color: #161b33;
+  background: #161b33;
   color: #f1dac4;
+  cursor: pointer;
 }
 
 p {
