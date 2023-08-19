@@ -3,10 +3,6 @@
   --text-font: "Quicksand", sans-serif;
 }
 
-.container {
-  max-width: 1400px;
-  margin: 0 auto;
-}
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
     url(../img/header-kyoto01.jpg);
@@ -21,6 +17,7 @@ header h1 {
   font-family: var(--title-font);
   font-size: 70px;
   line-height: 1.5;
+  margin: 0px;
 }
 
 header h2 {
@@ -28,16 +25,18 @@ header h2 {
   font-weight: lighter;
   font-size: 35px;
   line-height: 1.5;
-  margin: 60px;
+  margin: 0px;
 }
 
 .learn-more {
   color: #161b33;
   background: #f1dac4;
   font-style: none;
+  letter-spacing: 2px;
   font-family: var(--title-font);
   padding: 15px 20px;
   border-radius: 30px;
+  margin-top: 30px;
 }
 
 .learn-more:hover {
@@ -56,4 +55,25 @@ footer {
   font-family: var(--title-font);
   font-size: 15px;
   text-align: center;
+}
+
+@media (max-width: 800px) {
+  header {
+    padding: 60px 0;
+  }
+
+  header h1 {
+    font-size: 35px;
+  }
+
+  header h2 {
+    font-size: 17px;
+  }
+
+  .learn-more {
+    font-size: 3px;
+    padding: 5px 10px;
+    border-radius: 30px;
+    margin-top: 15px;
+  }
 }
