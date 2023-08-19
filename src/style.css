@@ -59,18 +59,18 @@ footer {
   background-size: cover;
   color: #f1dac4;
   font-family: var(--title-font);
-  font-size: 15px;
+  font-size: 20px;
   font-weight: lighter;
   text-align: center;
 }
 
 .open-sourced {
   color: #f1dac4;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .open-sourced:hover {
-  text-decoration: underline;
+  text-decoration: none;
   cursor: pointer;
 }
 
