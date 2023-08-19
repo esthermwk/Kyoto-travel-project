@@ -3,25 +3,26 @@
   --text-font: "Hind Guntur", sans-serif;
 }
 
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url(../img/header-kyoto01.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  color: #f1dac4;
 }
 
 h1 {
-  color: #f1dac4;
   font-family: var(--title-font);
   font-size: 70px;
-  text-align: center;
 }
 
 h2 {
-  color: green;
   font-family: var(--title-font);
   font-size: 40px;
-  text-align: center;
 }
 
 .learn-more {
