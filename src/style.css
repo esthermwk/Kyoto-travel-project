@@ -3,6 +3,10 @@
   --text-font: "Hind Guntur", sans-serif;
 }
 
+header {
+  background-image: url(../img/header-kyoto01.jpg);
+}
+
 h1 {
   color: navy;
   font-family: var(--title-font);
