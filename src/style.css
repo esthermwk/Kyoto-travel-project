@@ -80,12 +80,12 @@ footer li {
   text-align: center;
 }
 
-.open-sourced {
+.link {
   color: #f1dac4;
   text-decoration: underline;
 }
 
-.open-sourced:hover {
+.link:hover {
   text-decoration: none;
   cursor: pointer;
 }
