@@ -52,9 +52,25 @@ p {
 }
 
 footer {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
+    url(../img/header-kyoto05.jpg);
+  padding: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #f1dac4;
   font-family: var(--title-font);
   font-size: 15px;
   text-align: center;
+}
+
+.open-source {
+  color: #f1dac4;
+  text-decoration: none;
+}
+
+.open-source:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 @media (max-width: 800px) {
