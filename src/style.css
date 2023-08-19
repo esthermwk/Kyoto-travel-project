@@ -29,8 +29,8 @@ header h2 {
 }
 
 .learn-more {
-  color: #161b33;
-  background: #f1dac4;
+  color: #f1dac4;
+  background: #161b33;
   font-style: none;
   letter-spacing: 2px;
   font-family: var(--title-font);
@@ -40,8 +40,8 @@ header h2 {
 }
 
 .learn-more:hover {
-  background: #161b33;
-  color: #f1dac4;
+  background: #f1dac4;
+  color: #161b33;
   cursor: pointer;
 }
 
