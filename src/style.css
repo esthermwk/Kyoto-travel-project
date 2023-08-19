@@ -26,13 +26,13 @@ header h2 {
   font-family: var(--title-font);
   font-weight: lighter;
   font-size: 35px;
+  line-height: 1.5;
 }
 
-.learn-more {
+header a {
   color: navy;
   font-family: var(--title-font);
   font-size: 20px;
-  text-align: center;
   text-decoration: underline;
 }
 
