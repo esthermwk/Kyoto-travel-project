@@ -14,6 +14,7 @@ header {
   background-size: cover;
   color: #f1dac4;
   text-align: center;
+  padding: 200px;
 }
 
 header h1 {
@@ -29,11 +30,19 @@ header h2 {
   line-height: 1.5;
 }
 
-header a {
-  color: navy;
+.learn-more {
+  color: #161b33;
+  background-color: #f1dac4;
+  font-style: none;
   font-family: var(--title-font);
-  font-size: 20px;
-  text-decoration: underline;
+  margin: 0 auto;
+  padding: 15px 20px;
+  border-radius: 30px;
+}
+
+.learn-more:hover {
+  background-color: #161b33;
+  color: #f1dac4;
 }
 
 p {
