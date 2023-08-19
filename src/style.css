@@ -52,8 +52,7 @@ p {
 }
 
 footer {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)),
-    url(../img/footer-kyoto09.jpg);
+  background: #161b33;
   padding: 40px;
   background-repeat: no-repeat;
   background-size: cover;
