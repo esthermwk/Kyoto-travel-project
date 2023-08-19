@@ -9,7 +9,7 @@ header {
   background-size: cover;
   color: #f1dac4;
   text-align: center;
-  padding: 200px;
+  padding: 130px;
 }
 
 header h1 {
@@ -54,9 +54,14 @@ p {
 footer {
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)),
     url(../img/footer-kyoto09.jpg);
-  padding: 30px;
+  padding: 40px;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
 }
 
 footer h3 {
@@ -64,21 +69,24 @@ footer h3 {
   font-family: var(--title-font);
   font-size: 20px;
   font-weight: bold;
-  text-align: center;
 }
 
 footer p {
   color: #f1dac4;
   font-family: var(--title-font);
   font-size: 20px;
-  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+  text-align: left;
 }
 
 footer li {
+  list-style: none;
   color: #f1dac4;
   font-family: var(--title-font);
   font-size: 20px;
-  text-align: center;
+  margin: 0 auto;
+  padding: 0;
 }
 
 .link {
@@ -112,7 +120,7 @@ footer li {
   }
 
   footer {
-    padding: 15px 0;
+    padding: 20px;
   }
 
   footer h3,
