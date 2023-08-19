@@ -3,7 +3,7 @@
 }
 
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
     url(../img/header-kyoto01.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -21,7 +21,7 @@ header h1 {
 
 header h2 {
   font-family: var(--title-font);
-  font-weight: lighter;
+  font-weight: bold;
   font-size: 35px;
   line-height: 1.5;
   margin: 0px;
@@ -51,9 +51,9 @@ p {
 }
 
 footer {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)),
     url(../img/footer-kyoto09.jpg);
-  padding: 50px;
+  padding: 30px;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -69,14 +69,14 @@ footer h3 {
 footer p {
   color: #f1dac4;
   font-family: var(--title-font);
-  font-size: 15px;
+  font-size: 20px;
   text-align: center;
 }
 
 footer li {
   color: #f1dac4;
   font-family: var(--title-font);
-  font-size: 15px;
+  font-size: 20px;
   text-align: center;
 }
 
@@ -90,7 +90,7 @@ footer li {
   cursor: pointer;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 960px) {
   header {
     padding: 60px 0;
   }
@@ -111,6 +111,12 @@ footer li {
   }
 
   footer {
-    padding: 40px 0;
+    padding: 15px 0;
+  }
+
+  footer h3,
+  p,
+  li {
+    font-size: 15px !important;
   }
 }
