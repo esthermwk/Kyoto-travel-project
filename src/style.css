@@ -1,6 +1,5 @@
 :root {
   --title-font: "Jost", sans-serif;
-  --text-font: "Quicksand", sans-serif;
 }
 
 header {
@@ -46,14 +45,14 @@ header h2 {
 }
 
 p {
-  font-family: var(--text-font);
+  font-family: var(--title-font);
   font-size: 25px;
   text-align: center;
 }
 
 footer {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),
-    url(../img/footer-kyoto01.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../img/footer-kyoto09.jpg);
   padding: 50px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -69,14 +68,14 @@ footer h3 {
 
 footer p {
   color: #f1dac4;
-  font-family: var(--text-font);
+  font-family: var(--title-font);
   font-size: 15px;
   text-align: center;
 }
 
 footer li {
   color: #f1dac4;
-  font-family: var(--text-font);
+  font-family: var(--title-font);
   font-size: 15px;
   text-align: center;
 }
