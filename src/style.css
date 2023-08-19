@@ -52,15 +52,32 @@ p {
 }
 
 footer {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),
     url(../img/header-kyoto06.jpg);
   padding: 100px;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+footer h3 {
   color: #f1dac4;
   font-family: var(--title-font);
-  font-size: 20px;
-  font-weight: lighter;
+  font-size: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+footer p {
+  color: #f1dac4;
+  font-family: var(--text-font);
+  font-size: 7px;
+  text-align: center;
+}
+
+footer ul {
+  color: #f1dac4;
+  font-family: var(--text-font);
+  font-size: 7px;
   text-align: center;
 }
 
