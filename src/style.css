@@ -125,10 +125,12 @@ footer li {
 
   header h1 {
     font-size: 30px;
+    text-align: center;
   }
 
   header h2 {
     font-size: 17px;
+    text-align: center;
   }
 
   .learn-more {
