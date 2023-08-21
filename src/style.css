@@ -1,5 +1,7 @@
 :root {
   --title-font: "Jost", sans-serif;
+  --dark-color: #161b33;
+  --light-color: #f1dac4;
 }
 
 header {
@@ -28,8 +30,8 @@ header h2 {
 }
 
 .learn-more {
-  color: #f1dac4;
-  background: #161b33;
+  color: var(--light-color);
+  background: var(--dark-color);
   font-style: none;
   font-weight: bold;
   font-family: var(--title-font);
@@ -39,8 +41,8 @@ header h2 {
 }
 
 .learn-more:hover {
-  background: #f1dac4;
-  color: #161b33;
+  background: var(--light-color);
+  color: var(--dark-color);
   cursor: pointer;
 }
 
@@ -51,7 +53,7 @@ p {
 }
 
 footer {
-  background: #161b33;
+  background: var(--dark-color);
   padding: 40px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -64,14 +66,14 @@ footer {
 }
 
 footer h3 {
-  color: #f1dac4;
+  color: var(--light-color);
   font-family: var(--title-font);
   font-size: 25px;
   font-weight: bold;
 }
 
 footer p {
-  color: #f1dac4;
+  color: var(--light-color);
   font-family: var(--title-font);
   font-size: 20px;
   margin: 0 auto;
@@ -81,7 +83,7 @@ footer p {
 
 footer li {
   list-style: none;
-  color: #f1dac4;
+  color: var(--light-color);
   font-family: var(--title-font);
   font-size: 20px;
   margin: 0 auto;
@@ -89,7 +91,7 @@ footer li {
 }
 
 .link {
-  color: #f1dac4;
+  color: var(--light-color);
   text-decoration: underline;
   opacity: 80%;
 }
