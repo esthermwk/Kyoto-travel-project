@@ -11,7 +11,7 @@ header {
   background-size: cover;
   color: #f1dac4;
   text-align: center;
-  padding: 130px;
+  padding: 150px;
 }
 
 header h1 {
@@ -62,7 +62,7 @@ footer {
 .grid {
   grid-template-columns: 1fr 2fr 2fr;
   display: grid;
-  grid-gap: 64px;
+  grid-gap: 48px;
 }
 
 footer h3 {
@@ -103,7 +103,7 @@ footer li {
 
 @media (max-width: 960px) {
   header {
-    padding: 60px 0;
+    padding: 75px 0;
   }
 
   header h1 {
@@ -128,8 +128,7 @@ footer li {
   }
 
   .grid {
-    grid-template-columns: 1fr 2fr 2fr;
-    display: grid;
-    grid-gap: 40px;
+    grid-template-columns: 1fr;
+    grid-gap: 15px;
   }
 }
