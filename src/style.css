@@ -120,7 +120,7 @@ footer li {
 
 @media (max-width: 960px) {
   header {
-    padding: 125px 0;
+    padding: 125px;
   }
 
   header h1 {
@@ -144,7 +144,7 @@ footer li {
   }
 
   img {
-    display: center;
+    text-align: justify;
   }
   footer h3,
   p,
@@ -152,7 +152,7 @@ footer li {
     font-size: 15px !important;
   }
 
-  .grid {
+  .footer-grid {
     grid-template-columns: 1fr;
     grid-gap: 15px;
   }
