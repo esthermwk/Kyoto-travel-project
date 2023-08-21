@@ -54,7 +54,7 @@ p {
 
 footer {
   background: var(--dark-color);
-  padding: 40px;
+  padding: 40px 40px;
   background-repeat: no-repeat;
   background-size: cover;
 }
