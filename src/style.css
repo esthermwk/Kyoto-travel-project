@@ -49,7 +49,7 @@ header h2 {
 .about-grid {
   grid-template-columns: 1fr 1fr;
   display: grid;
-  grid-gap: 32px;
+  grid-gap: 12px;
   padding: 70px 100px;
 }
 
@@ -121,7 +121,7 @@ footer li {
 
 @media (max-width: 960px) {
   header {
-    padding: 125px;
+    padding: 240px;
   }
 
   header h1 {
@@ -141,7 +141,7 @@ footer li {
 
   .about-grid {
     grid-template-columns: 1fr;
-    grid-gap: 15px;
+    grid-gap: 16px;
   }
 
   img {
@@ -150,7 +150,7 @@ footer li {
   footer h3,
   p,
   li {
-    font-size: 15px !important;
+    font-size: 18px !important;
   }
 
   .footer-grid {
