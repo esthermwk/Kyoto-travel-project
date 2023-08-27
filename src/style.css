@@ -58,6 +58,7 @@ header h2 {
   font-family: var(--title-font);
   font-size: 30px;
   color: var(--dark-color);
+  padding: 0px;
 }
 
 img {
@@ -149,6 +150,10 @@ footer li {
     grid-template-columns: 1fr;
     grid-gap: 16px;
     padding: 30px;
+  }
+
+  .about-grid h2 {
+    font-size: 15px;
   }
 
   footer {
