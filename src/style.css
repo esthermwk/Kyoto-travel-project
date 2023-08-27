@@ -63,6 +63,8 @@ header h2 {
 img {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
   max-width: 100%;
+  width: fit-content;
+  height: fit-content;
   height: auto;
 }
 
@@ -83,7 +85,7 @@ footer {
 .footer-grid {
   grid-template-columns: 1fr 2fr 2fr;
   display: grid;
-  grid-gap: 48px;
+  grid-gap: 64px;
 }
 
 footer h3 {
@@ -124,7 +126,7 @@ footer li {
 
 @media (max-width: 960px) {
   header {
-    padding: 75px;
+    padding: 125px;
     max-width: 100%;
   }
 
