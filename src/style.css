@@ -54,7 +54,7 @@ header h2 {
   padding: 70px 100px;
 }
 
-.about-text h2 {
+.about-text h1 {
   font-family: var(--title-font);
   font-size: 30px;
   color: var(--dark-color);
@@ -76,6 +76,38 @@ img {
   line-height: 24px;
 }
 
+.cafe {
+  padding: 25px 75px;
+}
+
+.cafe h1 {
+  text-align: center;
+  font-family: var(--title-font);
+  font-size: 30px;
+  color: var(--dark-color);
+  padding: 0px;
+}
+
+.cafe-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
+}
+
+.card {
+  background: #fff3e8;
+  max-width: 100%;
+  display: block;
+}
+.card-header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.card-info {
+  padding: 24px 32px;
+  display: block;
+}
 footer {
   background: var(--dark-color);
   padding: 40px 40px;
@@ -152,7 +184,7 @@ footer li {
     padding: 30px;
   }
 
-  .about-text h2 {
+  .about-text h1 {
     font-size: 25px;
   }
 
