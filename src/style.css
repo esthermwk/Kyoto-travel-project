@@ -50,7 +50,7 @@ header h2 {
 .about-grid {
   grid-template-columns: 1fr 1fr;
   display: grid;
-  grid-gap: 12px;
+  grid-gap: 50px;
   padding: 70px 100px;
 }
 
@@ -61,10 +61,10 @@ header h2 {
 }
 
 img {
+  margin-top: 20px;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
   max-width: 100%;
-  width: fit-content;
-  height: fit-content;
+  width: auto;
   height: auto;
 }
 
@@ -126,7 +126,7 @@ footer li {
 
 @media (max-width: 960px) {
   header {
-    padding: 125px;
+    padding: 83px;
     max-width: 100%;
   }
 
