@@ -121,6 +121,29 @@ p {
   color: var(--dark-color);
 }
 
+.cafe-footer {
+  display: block;
+  padding: 0 30px 30px;
+}
+
+.cafe-btn {
+  color: var(--light-color);
+  background: var(--dark-color);
+  font-style: none;
+  font-weight: bold;
+  font-family: var(--title-font);
+  padding: 15px 20px;
+  margin-top: 30px;
+  text-decoration: none !important;
+  text-align: center;
+}
+
+.cafe-btn:hover {
+  background: var(--light-color);
+  color: var(--dark-color);
+  cursor: pointer;
+}
+
 .img-responsive {
   width: 100%;
   max-width: 100%;
