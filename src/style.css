@@ -30,10 +30,10 @@ header h2 {
   margin: 0px;
 }
 
-.learn-more {
+header a {
   color: var(--light-color);
   background: var(--dark-color);
-  font-style: none;
+  font-style: none !important;
   font-weight: bold;
   font-family: var(--title-font);
   padding: 15px 20px;
@@ -41,13 +41,13 @@ header h2 {
   border-color: transparent;
 }
 
-.learn-more:hover {
+header a:hover {
   background: var(--light-color);
   color: var(--dark-color);
   cursor: pointer;
 }
 
-.about-grid {
+#about-grid {
   grid-template-columns: 1fr 1fr;
   display: grid;
   grid-gap: 50px;
@@ -61,7 +61,7 @@ header h2 {
   padding: 0px;
 }
 
-.about-grid img {
+#about-grid img {
   margin-top: 20px;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
   max-width: 100%;
@@ -235,19 +235,20 @@ footer li {
     font-size: 12px;
   }
 
-  .learn-more {
+  header a {
     font-size: 10px;
     padding: 5px 15px;
     margin-top: 15px;
   }
 
-  .about-grid {
+  #about-grid {
     grid-template-columns: 1fr;
     grid-gap: 16px;
     padding: 30px;
   }
 
   .about-text h1 {
+    text-align: center;
     font-size: 25px;
   }
   .cafe {
