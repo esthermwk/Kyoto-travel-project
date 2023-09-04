@@ -156,6 +156,23 @@ p {
   aspect-ratio: 1/1;
 }
 
+.gallery {
+  padding: 0px 100px 70px;
+}
+
+.gallery h1 {
+  text-align: center;
+  font-family: var(--title-font);
+  font-size: 45px;
+  color: var(--dark-color);
+  padding: 25px;
+}
+.gallery-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
+}
+
 footer {
   background: var(--dark-color);
   padding: 40px 40px;
@@ -243,6 +260,16 @@ footer li {
   }
 
   .cafe-columns {
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+    justify-content: center;
+  }
+
+  .gallery {
+    padding: 0px 20px 20px;
+  }
+
+  .gallery-columns {
     grid-template-columns: 1fr;
     grid-gap: 30px;
     justify-content: center;
