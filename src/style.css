@@ -102,6 +102,10 @@ header h2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+.embed {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
 
 .card-info {
   padding: 24px 32px;
