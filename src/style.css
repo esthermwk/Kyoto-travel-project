@@ -265,6 +265,10 @@ footer li {
     justify-content: center;
   }
 
+  .gallery h1 {
+    font-size: 25px;
+    padding: 0px;
+  }
   .gallery {
     padding: 0px 20px 20px;
   }
