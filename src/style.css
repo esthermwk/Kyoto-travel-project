@@ -207,6 +207,15 @@ footer li {
     font-size: 25px;
   }
 
+  .cafe h1 {
+    font-size: 25px;
+  }
+
+  .cafe-columns {
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+  }
+
   footer {
     max-width: 100%;
   }
