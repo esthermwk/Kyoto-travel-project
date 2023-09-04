@@ -112,7 +112,7 @@ header h2 {
   font-size: 30px;
   font-family: var(--title-font);
   color: var(--dark-color);
-  padding: 0;
+  padding: 0px;
 }
 
 .card-info,
@@ -131,13 +131,11 @@ p {
 .cafe-btn {
   color: var(--light-color);
   background: var(--dark-color);
+  font-family: var(--title-font);
   text-decoration: none;
   font-weight: bold;
-  font-family: var(--title-font);
   padding: 15px 20px;
   margin-top: 30px;
-
-  text-align: center;
 }
 
 .cafe-btn:hover {
