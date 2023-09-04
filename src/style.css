@@ -238,6 +238,7 @@ footer li {
     grid-template-columns: 1fr;
     grid-gap: 30px;
     justify-content: center;
+    max-width: 100%;
   }
 
   footer {
