@@ -214,6 +214,7 @@ footer li {
   .cafe-columns {
     grid-template-columns: 1fr;
     grid-gap: 30px;
+    justify-content: center;
   }
 
   footer {
