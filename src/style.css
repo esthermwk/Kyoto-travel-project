@@ -59,7 +59,6 @@ header a:hover {
   font-family: var(--title-font);
   font-size: 45px;
   color: var(--dark-color);
-  padding: 0px;
 }
 
 #about-grid img {
